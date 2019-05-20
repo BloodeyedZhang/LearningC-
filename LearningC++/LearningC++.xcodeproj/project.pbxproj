@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B07D091C2292F50300F891EF /* test5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B07D091B2292F50300F891EF /* test5.cpp */; };
 		B0FB927C228FDB1900EE0110 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FB927B228FDB1900EE0110 /* main.cpp */; };
 		B0FB9283228FDD6C00EE0110 /* support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FB9282228FDD6C00EE0110 /* support.cpp */; };
 		B0FB9285229005C700EE0110 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FB9284229005C700EE0110 /* test.cpp */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B07D091B2292F50300F891EF /* test5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test5.cpp; sourceTree = "<group>"; };
 		B0FB9278228FDB1900EE0110 /* LearningC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LearningC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FB927B228FDB1900EE0110 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B0FB9282228FDD6C00EE0110 /* support.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = support.cpp; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				B0FB92882290372E00EE0110 /* test2.cpp */,
 				B0FB928A22903C7600EE0110 /* test3.cpp */,
 				B0FB928C22904DDB00EE0110 /* test4.cpp */,
+				B07D091B2292F50300F891EF /* test5.cpp */,
 			);
 			path = "LearningC++";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				B0FB928722900A5D00EE0110 /* test1.cpp in Sources */,
 				B0FB92892290372E00EE0110 /* test2.cpp in Sources */,
 				B0FB928B22903C7600EE0110 /* test3.cpp in Sources */,
+				B07D091C2292F50300F891EF /* test5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
