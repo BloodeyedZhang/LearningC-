@@ -5,6 +5,8 @@
 //  Created by 张佳俊 on 2019/5/20.
 //  Copyright © 2019年 张佳俊. All rights reserved.
 //
+//  命令模式
+//
 
 #include <stdio.h>
 
@@ -63,4 +65,21 @@ Command* InputHandler::handleInput() {
     
     // Nothing pressed, so do nothing
     return null;
+}
+
+class MoveUnitCommand : public Command {
+public:
+    MoveUnitCommand(Unit* unit, int x, int y) : unit_(unit) {
+        x_(x);
+        y_(y);
+    }
+    
+    virtual void execute() {
+        unit_->moveTo(x_, y_);
+    }
+    
+private:
+    Unit* unit;
+    int x_;
+    int y_;
 }
