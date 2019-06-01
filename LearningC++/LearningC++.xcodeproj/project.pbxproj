@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B02B19DA229459CD0084765F /* test6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B02B19D9229459CD0084765F /* test6.cpp */; };
+		B072370422A2ABB800C613F4 /* test8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B072370322A2ABB800C613F4 /* test8.cpp */; };
 		B07D091C2292F50300F891EF /* test5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B07D091B2292F50300F891EF /* test5.cpp */; };
 		B08B1414229A48AE00A90FEA /* test7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08B1413229A48AE00A90FEA /* test7.cpp */; };
 		B0FB927C228FDB1900EE0110 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FB927B228FDB1900EE0110 /* main.cpp */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		B02B19D9229459CD0084765F /* test6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test6.cpp; sourceTree = "<group>"; };
+		B072370322A2ABB800C613F4 /* test8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test8.cpp; sourceTree = "<group>"; };
 		B07D091B2292F50300F891EF /* test5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test5.cpp; sourceTree = "<group>"; };
 		B08B1413229A48AE00A90FEA /* test7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test7.cpp; sourceTree = "<group>"; };
 		B0FB9278228FDB1900EE0110 /* LearningC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LearningC++"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				B07D091B2292F50300F891EF /* test5.cpp */,
 				B02B19D9229459CD0084765F /* test6.cpp */,
 				B08B1413229A48AE00A90FEA /* test7.cpp */,
+				B072370322A2ABB800C613F4 /* test8.cpp */,
 			);
 			path = "LearningC++";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				B0FB928D22904DDB00EE0110 /* test4.cpp in Sources */,
 				B0FB927C228FDB1900EE0110 /* main.cpp in Sources */,
+				B072370422A2ABB800C613F4 /* test8.cpp in Sources */,
 				B0FB9283228FDD6C00EE0110 /* support.cpp in Sources */,
 				B0FB9285229005C700EE0110 /* test.cpp in Sources */,
 				B0FB928722900A5D00EE0110 /* test1.cpp in Sources */,
